@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: "cubic";
-	src: url('.../font/cubics.ttf');
+	src: url('font/cubic.ttf');
 }
 
 
@@ -54,7 +54,7 @@ background-color: #8BADD9;
 
 h1{
 
-font-family: "cubic";
+font-family: "cubicd";
 font-size: 50px;
 color: #8BADD9;
 text-shadow: 0px 0px 7px rgba(80, 139, 191, 1);
