@@ -107,14 +107,6 @@ margin-bottom: 20px;
 	color: #f2f2f2;
 }
 
-.cadreblanc {
-	
-	background-color: #f2f2f2;
-	 border-radius: 10px;
-	padding: 25px;
-	 
-	
-}
 .color1 {
 	color: #f2f2f2;
 	font-family: arial;
@@ -129,6 +121,17 @@ margin-bottom: 20px;
 .fondblanc {
 	background-color: #f2f2f2;
 	
+}
+.concrete {
+	background-color: #929393;
+	color: white;
+	
+	font-family: arial;
+}
+.concretetitle {
+	color: #f2f2f2;
+	text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+
 }
 
 div.gallery {
