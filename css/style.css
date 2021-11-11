@@ -2,6 +2,7 @@
 
 
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -163,3 +164,26 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+	
+	
+	/* Color Theme Swatches in Hex */
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-1-hex { color: #010326; }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-2-hex { color: #022859; }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-3-hex { color: #034C8C; }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-4-hex { color: #508BBF; }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-5-hex { color: #F2E9E9; }
+
+/* Color Theme Swatches in RGBA */
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-1-rgba { color: rgba(0, 2, 38, 1); }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-2-rgba { color: rgba(1, 39, 89, 1); }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-3-rgba { color: rgba(2, 76, 140, 1); }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-4-rgba { color: rgba(80, 139, 191, 1); }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-5-rgba { color: rgba(242, 233, 232, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-1-hsla { color: hsla(236, 96, 7, 1); }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-2-hsla { color: hsla(213, 96, 17, 1); }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-3-hsla { color: hsla(208, 96, 28, 1); }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-4-hsla { color: hsla(208, 46, 53, 1); }
+.Matin-bleu-en-montagne,-Hautes-Alpes,-France-5-hsla { color: hsla(5, 27, 93, 1); }
