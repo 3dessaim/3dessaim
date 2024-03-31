@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur Pythagore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222222; /* Gris foncé */
+            color: #ffffff; /* Blanc */
+        }
+        .container {
+            width: 80%;
+            max-width: 400px; /* Largeur maximale pour les smartphones */
+            margin: 50px auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculateur Pythagore</h1>
+        <label for="sideA">Côté A :</label>
+        <input type="number" id="sideA" required>
+        <label for="sideB">Côté B :</label>
+        <input type="number" id="sideB" required>
+        <button onclick="calculatePythagorean()">Calculer</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function calculatePythagorean() {
+            var sideA = parseFloat(document.getElementById("sideA").value);
+            var sideB = parseFloat(document.getElementById("sideB").value);
+            var hypotenuse = Math.sqrt(sideA * sideA + sideB * sideB);
+
+            document.getElementById("result").innerHTML = "L'hypoténuse est : " + hypotenuse.toFixed(2);
+        }
+    </script>
+</body>
+</html>
